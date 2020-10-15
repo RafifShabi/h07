@@ -1,0 +1,250 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Yu Gothic Medium";
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(59, 59, 59, 0.85);
+  position :fixed;
+  top: 0;
+  z-index: 10;
+  
+}
+.btn:hover{
+	opacity: 1;
+	background-color: #7B7D7D;
+	color: white;
+}
+.fa td:hover {
+	opacity: 1;
+}
+
+.fa{
+	margin-right:5px;
+	font: normal normal normal 14px/1 FontAwesome;
+	font-size: inherit;
+	padding: 12px 24px;
+	color: white;
+	display: inline-block;
+	border-radius: 4px;
+	text-align: center;
+	background-color: rgba(59, 59, 59, 0.85);
+	margin-right: 10px;
+	transition: all 0.5s;
+}
+
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 21px 25px 20px;
+  display: none;
+}
+
+
+.header-left {
+  float: left;
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+  float: right;
+  transition: all 0.5s;
+  margin-right: 20px;
+}
+
+.header-right a:hover {
+  background-color: rgba(219, 219, 219, 0.5);
+}
+
+.header-wrapper{
+	padding: 25px;
+	margin-top: -27px;
+	width: 100%;
+	font-family: "Berlin Sans FB Demi"; 
+	color: white;
+	margin-top: -9px;
+}
+
+.titleonafterprint {
+	font-family: "Futura Md BT"; 
+	padding: 25px;
+}
+
+.top-wrapper {
+	padding: 180px 0 190px 0;
+	margin-bottom: -180px;
+	background-image: url(https://cdn.pixabay.com/photo/2016/01/19/15/09/foggy-1149180__340.jpg);
+	background-size: cover;
+	color: white;
+	text-align: center;
+	word-break: break-word;
+	background-color: black;
+}
+
+main h1 {
+	font-family: "Berlin Sans FB Demi";
+	text-align: center;
+	font-size: 45px;
+	color: #FFFFFF;
+}
+
+main h2 {
+		font-family: "Futura Md BT";
+		text-align: center;
+		color: #FFFFFF;
+	}
+
+article {
+	margin-top: 300px;
+}
+
+article h2 {
+	font-family: "Futura Md BT";
+	font-size: 50px;
+	color: #000000;
+	margin-bottom: 45px;
+}
+
+article p {
+	text-align: center;
+	margin: 30px 50px 10px 50px;
+	font-size: 20px;
+	color: #000000;
+	padding-bottom: 100px;
+	border-bottom: 10px solid #000000;
+}
+
+main p {
+	text-align: center;
+	margin: 30px 30px 100px 30px;
+	font-size: 20px;
+}
+
+.penutup p {
+	text-align: center;
+	margin: 30px 50px 10px 50px;
+	font-family: "Bebas Neue";
+	font-size: 30px;
+	padding-bottom: 100px;
+}
+
+#wrapper {
+    width: 400px;
+    padding: 10px;
+    margin: auto;
+	margin-bottom: 100px;
+}
+.box {
+    position: relative;
+    overflow: hidden;
+    margin: 10px 1%;
+    max-width: 420px;
+    line-height: 1.4em;
+    font-size: 16px;
+    border-radius: 20px 20px;
+}
+.box * {
+    box-sizing: border-box;
+    transition: all 0.50s ease;
+}
+.box img {
+    vertical-align: top;
+	
+}
+.box .caption {
+    position: absolute;
+    top: calc(77%);
+    background-color: #7F8C8D ;
+    padding: 15px 25px 65px;
+}
+.box .caption:before {
+    position: absolute;
+    content: '';
+    bottom: 100%;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    background-image: linear-gradient(to bottom, transparent 0%, #7F8C8D  100%);
+}
+.box h3 {
+    margin: 0 0 20px;
+    font-size: 24px;
+    line-height: 35px;
+	text-align: center;
+}
+.box p {
+    opacity: 0.9;
+    font-style: italic;
+	text-align: center;
+}
+.box:hover .caption {
+    top: 80px;
+}
+
+footer {
+  padding-top: 30px;
+  padding-bottom: 20px;
+  text-align:center;
+  color:white;
+  background-color:#000000;
+  margin-top: 100px;
+}
+
+footer h2, h3, ul {
+	font-family: "Futura Md BT";
+	margin-bottom: 10px;
+}
+/* ini yang aku tambah */
+.animation{
+	position:relative;
+	animation:animatetop 0.4s}
+	@keyframes animatetop{from{top:-300px;opacity:0} to{top:0;opacity:1}}
+}
+
+table a {
+	margin-right: 10px;
+	float: left;
+	margin-top: 20px;
+	
+}
+html {
+  scroll-behavior: smooth;
+}
+
+table tr {
+	text-align: center;
+	margin: 15px 10px 15px 10px;
+}
+
+.poka h1 {
+	font-family: "Futura Md BT";
+	margin-bottom: 15px;
+}
+
+table p {
+	margin: 8px 25px 5px 25px;
+}
+
+.btn-wrapper::hover {
+	opacity:1;
+}
